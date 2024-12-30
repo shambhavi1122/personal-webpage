@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Webpage</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header styling */
+        header {
+            background-image: url('https://via.placeholder.com/1200x400/4CAF50/ffffff?text=Welcome+to+My+Page');
+            background-size: cover;
+            text-align: center;
+            color: white;
+            padding: 80px 20px;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+
+        /* Navigation Bar */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s, transform 0.3s;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+            transform: scale(1.1);
+        }
+
+        /* Section Styling */
+        section {
+            margin: 40px auto;
+            padding: 40px;
+            max-width: 1200px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        section:hover {
+            transform: scale(1.02);
+        }
+
+        h2 {
+            font-size: 2.5em;
+            color: #333;
+            border-bottom: 3px solid #4CAF50;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        p, ul {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        /* Button Styling */
+        .btn {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 25px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.3s;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+
+        /* Extra Spark Section */
+        .extra-spark {
+            background-color: #FFEB3B;
+            padding: 25px;
+            border-radius: 10px;
+            font-size: 1.3em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            color: #333;
+            margin-top: 30px;
+        }
+
+        .extra-spark p {
+            font-weight: bold;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Media Query for responsiveness */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+            header p {
+                font-size: 1.2em;
+            }
+            section {
+                margin: 20px;
+                padding: 25px;
+            }
+            .btn {
+                padding: 12px 20px;
+                font-size: 1em;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+        <p>Welcome to my personal webpage! Let’s connect and explore my journey.</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#learning">Current Learning</a>
+        <a href="#goals">Goals for 2025</a>
+        <a href="#resolutions">New Year Resolutions</a>
+        <a href="#spark">Extra Spark</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm [Your Name], a passionate [Your Profession or Hobby], driven by curiosity and learning. Currently, I work as a [Your Job], where I specialize in [Brief Description of Your Work]. I believe in continuous self-improvement and exploring new horizons, both in my personal and professional life. I am an enthusiast of [list of hobbies], and in my spare time, I enjoy [short personal anecdote].</p>
+        <a href="#learning" class="btn">Learn More About My Work</a>
+    </section>
+
+    <section id="learning">
+        <h2>Current Learning</h2>
+        <p>Right now, I’m diving into [Your Current Learning Focus]. Whether it’s [e.g., mastering Python programming, improving graphic design, or learning a new language], I’m eager to grow in this area. I'm currently working through [online courses, books, or personal projects] to gain hands-on experience. I believe in a “learning by doing” approach, and every day is a new opportunity to improve!</p>
+        <a href="#goals" class="btn">See My Future Learning Goals</a>
+    </section>
+
+    <section id="goals">
+        <h2>Goals for 2025</h2>
+        <p>In the year 2025, I plan to embark on new learning adventures, including [specific skills you want to acquire or improve]. Here are my top goals for the upcoming year:</p>
+        <ul>
+            <li>Complete a professional certification in [field of interest]</li>
+            <li>Master [specific technology, software, or skill]</li>
+            <li>Collaborate on a large-scale project in [industry/field]</li>
+            <li>Explore a new language or culture through immersion programs</li>
+        </ul>
+        <a href="#resolutions" class="btn">Check Out My New Year Resolutions</a>
+    </section>
+
+    <section id="resolutions">
+        <h2>New Year Resolutions</h2>
+        <ul>
+            <li>Focus on improving work-life balance by setting clearer boundaries.</li>
+            <li>Dedicate time to fitness and mental well-being through regular exercise and meditation.</li>
+            <li>Develop stronger professional networks by attending more events and collaborating.</li>
+            <li>Read at least one new book every month to fuel personal growth.</li>
+        </ul>
+        <a href="#spark" class="btn">Discover My Extra Spark!</a>
+    </section>
+
+    <section id="spark">
+        <h2>Extra Spark</h2>
+        <div class="extra-spark">
+            <p>Here’s something special! I’m currently developing a [side project, hobby, or creative endeavor], which brings together my passion for [technology, design, writing, or any field]. This project is a way for me to challenge myself and learn new things outside my usual work. I’m thrilled to share this journey as it evolves!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
